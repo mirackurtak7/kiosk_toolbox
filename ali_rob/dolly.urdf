@@ -58,7 +58,7 @@
             <material name="grey" />
         </visual>
     </link>
-    <joint name="lidar_joint" type="fixed">
+    <joint name="laser_frame" type="fixed">
         <parent link="base_link" />
         <child link="lidar" />
         <origin xyz="0 0 0.1" rpy="0 0 0"/>
